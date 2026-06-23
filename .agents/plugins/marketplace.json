@@ -1,7 +1,7 @@
 {
-  "name": "dayzghost-dayz",
+  "name": "justwats-dayz",
   "interface": {
-    "displayName": "DayZGhost DayZ Dev"
+    "displayName": "DayZ Dev (JustWats fork)"
   },
   "plugins": [
     {

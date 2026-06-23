@@ -4,20 +4,25 @@ This repository is a public Codex marketplace. Its self-contained plugin lives
 at `plugins/dayz-dev`; the original Claude, Gemini, Cursor, and Windsurf files
 remain available at the repository root.
 
+This is a JustWats-maintained distribution fork and Codex port of
+`DayZGhost/dayz-dev-plugin`. DayZGhost contributors retain authorship of the
+underlying project and reference material; the `justwats-dayz` namespace only
+identifies this marketplace distribution.
+
 ## Install
 
 From the current default branch:
 
 ```powershell
-codex plugin marketplace add DayZGhost/dayz-dev-plugin --ref main
-codex plugin add dayz-dev@dayzghost-dayz
+codex plugin marketplace add JustWats/dayz-dev-plugin --ref main
+codex plugin add dayz-dev@justwats-dayz
 ```
 
 For a pinned install, use a release tag:
 
 ```powershell
-codex plugin marketplace add DayZGhost/dayz-dev-plugin --ref v0.1.0
-codex plugin add dayz-dev@dayzghost-dayz
+codex plugin marketplace add JustWats/dayz-dev-plugin --ref v0.1.1
+codex plugin add dayz-dev@justwats-dayz
 ```
 
 Start a new Codex thread after installation so the `$dayz-dev` skill appears
@@ -59,9 +64,9 @@ or uses current authoritative web documentation.
 Refresh the marketplace, reinstall the plugin, and start a new Codex thread:
 
 ```powershell
-codex plugin marketplace upgrade dayzghost-dayz
-codex plugin remove dayz-dev@dayzghost-dayz
-codex plugin add dayz-dev@dayzghost-dayz
+codex plugin marketplace upgrade justwats-dayz
+codex plugin remove dayz-dev@justwats-dayz
+codex plugin add dayz-dev@justwats-dayz
 ```
 
 Run `codex plugin marketplace --help` if the installed experimental CLI uses a
@@ -85,8 +90,8 @@ freshness matters, subject to the user's Codex network and approval settings.
 
 ## License and attribution
 
-The repository and Codex adaptation are GPL-3.0. Codex packaging was
-contributed by JustWats; the project and reference material derive
+The repository and Codex adaptation are GPL-3.0. This fork's Codex packaging
+is maintained by JustWats; the project and reference material derive
 from [DayZGhost/dayz-dev-plugin](https://github.com/DayZGhost/dayz-dev-plugin)
 at the revision recorded in `plugins/dayz-dev/NOTICE.txt`, and their authorship
 remains with the upstream contributors. Bohemia Interactive source files are
