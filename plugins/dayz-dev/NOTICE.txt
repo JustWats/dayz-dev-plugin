@@ -11,8 +11,9 @@ Adaptation date: 2026-06-22
 Changes include replacing Claude-specific orchestration with a Codex skill,
 reorganizing the knowledge files as progressively loaded references, and
 making a discovered installed DayZ script tree the primary source for API
-verification. This public adaptation is maintained by JustWats at:
-https://github.com/JustWats/dayz-dev-plugin
+verification. Codex packaging was contributed by JustWats; authorship of the
+underlying project and reference material remains with the upstream
+DayZGhost contributors.
 
 The upstream project and this adaptation are distributed under GPL-3.0. See
 LICENSE.txt for the license terms.
