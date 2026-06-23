@@ -1,10 +1,10 @@
 {
   "name": "dayz-dev",
-  "version": "0.1.0",
-  "description": "Develop and review DayZ mods with verified local Enforce Script APIs and version-aware documentation.",
+  "version": "0.1.1",
+  "description": "Codex packaging of DayZGhost's DayZ development references with verified local Enforce Script APIs.",
   "author": {
-    "name": "JustWats",
-    "url": "https://github.com/JustWats"
+    "name": "DayZGhost contributors",
+    "url": "https://github.com/DayZGhost/dayz-dev-plugin"
   },
   "homepage": "https://github.com/JustWats/dayz-dev-plugin",
   "repository": "https://github.com/JustWats/dayz-dev-plugin",
@@ -21,8 +21,8 @@
   "interface": {
     "displayName": "DayZ Dev",
     "shortDescription": "Verified DayZ Enforce Script development",
-    "longDescription": "Review, explain, and edit DayZ Enforce Script and configuration using the installed DayZ source tree first, then current authoritative documentation when local evidence is insufficient.",
-    "developerName": "JustWats",
+    "longDescription": "A JustWats-maintained Codex port of DayZGhost's project. Review, explain, and edit DayZ Enforce Script using local source first, without changing upstream authorship.",
+    "developerName": "DayZGhost contributors",
     "category": "Developer Tools",
     "capabilities": [
       "Interactive",

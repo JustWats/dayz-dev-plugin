@@ -2,7 +2,7 @@
   "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
   "name": "dayz-dev",
   "owner": {
-    "name": "JustWats",
+    "name": "Chaos",
     "email": ""
   },
   "metadata": {
@@ -28,9 +28,9 @@
         "arma"
       ],
       "author": {
-        "name": "JustWats"
+        "name": "Chaos"
       },
-      "homepage": "https://github.com/JustWats/dayz-dev-plugin"
+      "homepage": "https://github.com/chaos/dayz-dev-plugin"
     }
   ]
 }

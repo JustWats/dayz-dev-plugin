@@ -56,7 +56,7 @@ def validate_manifests(errors: list[str]) -> None:
     if manifest.get("license") != "GPL-3.0":
         errors.append("plugin license must be GPL-3.0")
     if manifest.get("repository") != "https://github.com/JustWats/dayz-dev-plugin":
-        errors.append("plugin repository must point to the public fork")
+        errors.append("plugin repository must point to the distribution fork")
     for forbidden_key in ("mcpServers", "apps", "hooks"):
         if forbidden_key in manifest:
             errors.append(f"content-only plugin cannot define {forbidden_key}")
