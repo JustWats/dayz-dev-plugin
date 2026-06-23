@@ -21,8 +21,8 @@ A comprehensive plugin for DayZ mod development with Enforce Script. Provides dy
 Install the public marketplace from the default branch:
 
 ```powershell
-codex plugin marketplace add JustWats/dayz-dev-plugin --ref main
-codex plugin add dayz-dev@justwats-dayz
+codex plugin marketplace add DayZGhost/dayz-dev-plugin --ref main
+codex plugin add dayz-dev@dayzghost-dayz
 ```
 
 For a reproducible install, replace `main` with a release tag such as `v0.1.0`.
@@ -42,7 +42,7 @@ npm install -g claude-dayz-dev
 ### Claude Code (Git)
 
 ```bash
-git clone https://github.com/JustWats/dayz-dev-plugin.git ~/.claude/skills/dayz-dev
+git clone https://github.com/DankMindless/dayz-dev-plugin.git ~/.claude/skills/dayz-dev
 ```
 
 ### Gemini Code Assist
@@ -52,7 +52,7 @@ git clone https://github.com/JustWats/dayz-dev-plugin.git ~/.claude/skills/dayz-
 3. Gemini Code Assist automatically loads `.gemini/GEMINI.md` as project context
 
 ```bash
-git clone https://github.com/JustWats/dayz-dev-plugin.git /tmp/dayz-dev
+git clone https://github.com/DankMindless/dayz-dev-plugin.git /tmp/dayz-dev
 cp -r /tmp/dayz-dev/.gemini /tmp/dayz-dev/scripting /tmp/dayz-dev/systems /tmp/dayz-dev/frameworks /tmp/dayz-dev/config /tmp/dayz-dev/compatibility your-project/
 ```
 
@@ -62,7 +62,7 @@ cp -r /tmp/dayz-dev/.gemini /tmp/dayz-dev/scripting /tmp/dayz-dev/systems /tmp/d
 2. Copy to your DayZ mod project root as `.cursorrules`
 
 ```bash
-curl -o .cursorrules https://raw.githubusercontent.com/JustWats/dayz-dev-plugin/main/DAYZ_CURSOR_RULES.md
+curl -o .cursorrules https://raw.githubusercontent.com/DankMindless/dayz-dev-plugin/main/DAYZ_CURSOR_RULES.md
 ```
 
 ### Manual
